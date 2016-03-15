@@ -1,0 +1,447 @@
+@import url("/src/dojox/widget/Toaster/Toaster.css");
+
+
+div.track-label
+{
+    z-index: 1075 !important;
+}
+
+.trackListNames div
+{
+    width: 90%;
+    margin-left: 5%;
+}
+
+.trackListNames input
+{
+    height:20px;
+}
+
+.bionanoSMAPFeatures
+{
+    background: darkgrey;
+    height:40px;
+    /*top:25px !important;*/
+}
+
+.bionanoCNFeatures
+{
+    background:darkgrey;
+    height:40px;
+}
+
+.bionanoSMAPFeatures .subfeature
+{
+    height:40px;
+}
+
+.bionanoSMAPFeatures .deletion
+{
+    background: red;
+}
+
+.bionanoSMAPFeatures .insertion
+{
+    background: green;
+}
+
+.bionanoSMAPFeatures .inversion
+{
+    background: orange;
+}
+
+.bionanoSMAPFeatures .inversion_paired
+{
+    background: blue;
+}
+
+.bionanoSMAPFeatures .inversion_partial
+{
+    background: pink;
+}
+
+.bionanoSMAPFeatures .translocation_interchr
+{
+    background: purple;
+}
+
+.bionanoSMAPFeatures .translocation_intrachr
+{
+    background: magenta;
+}
+
+.bionanoQueryFeatures
+{
+    /*top:0px !important;*/
+    /*border:1px solid black;*/
+    background: #60B1FF;
+    height: 40px !important;
+}
+
+.bionanoQueryFeatures .subfeature
+{
+    height:40px !important;
+    top :0px !important;
+}
+
+.bionanoQueryFeatures .nomatch
+{
+    height:40px !important;
+    top :0px !important;
+    background-color:#000 !important;
+}
+
+.plus-bionanoQueryFeatures .nomatch
+{
+    height:40px !important;
+    top :0px !important;
+    background-color:#000 !important;
+}
+
+.minus-bionanoQueryFeatures .nomatch
+{
+    height:40px !important;
+    top :0px !important;
+    background-color:#000 !important;
+}
+
+.plus-bionanoMoleculeFeatures .bionanoLabelChannel_2
+{
+    background-color:#1E49BB;
+    height:4px !important;
+}
+
+.plus-bionanoMoleculeFeatures .nomatch
+{
+    background-color:#000;
+    height:4px !important;
+}
+
+.minus-bionanoMoleculeFeatures .nomatch
+{
+    background-color:#000;
+    height:4px !important;
+}
+
+.plus-bionanoMoleculeFeatures .bionanoLabelChannel_1
+{
+    background-color:#F50C35;
+    height:4px !important;
+}
+
+.minus-bionanoMoleculeFeatures .bionanoLabelChannel_2
+{
+    background-color:#1E49BB;
+    height:4px !important;
+}
+
+.minus-bionanoMoleculeFeatures .bionanoLabelChannel_1
+{
+    background-color:#F50C35;
+    height:4px !important;
+}
+
+.plus-bionanoQueryFeatures .bionanoLabelChannel_2
+{
+    background-color:#1E49BB;
+    height:40px !important;
+}
+
+.plus-bionanoQueryFeatures .bionanoLabelChannel_1
+{
+    background-color:#F50C35;
+    height:40px !important;
+}
+
+.minus-bionanoQueryFeatures .bionanoLabelChannel_2
+{
+    background-color:#1E49BB;
+    height:40px !important;
+}
+
+.minus-bionanoQueryFeatures .bionanoLabelChannel_1
+{
+    background-color:#F50C35;
+    height:40px !important;
+}
+
+.plus-bionanoQueryFeatures .deletion
+{
+    background: red !important;
+    height:60px !important;
+    top :-10px !important;
+    z-index: 1000;
+
+    opacity: 0.5;
+}
+
+.plus-bionanoQueryFeatures .insertion
+{
+    background: green !important;
+    height:60px !important;
+    top :-10px !important;
+    z-index: 1000;
+
+    opacity: 0.5;
+}
+
+.plus-bionanoQueryFeatures .inversion
+{
+    background: orange;
+}
+
+.plus-bionanoQueryFeatures .inversion_paired
+{
+    background: blue;
+}
+
+.plus-bionanoQueryFeatures .inversion_partial
+{
+    background: pink;
+}
+
+.plus-bionanoQueryFeatures .translocation_interchr
+{
+    background: purple;
+}
+
+.plus-bionanoQueryFeatures .translocation_intrachr
+{
+    background: magenta;
+}
+
+.minus-bionanoQueryFeatures .deletion
+{
+    background: red !important;
+    height:60px !important;
+    top :-10px !important;
+    z-index: 1000;
+
+    opacity: 0.5;
+}
+
+.minus-bionanoQueryFeatures .insertion
+{
+    background: green !important;
+    height:60px !important;
+    top :-10px !important;
+    z-index: 1000;
+    
+    opacity: 0.5;
+}
+
+.minus-bionanoQueryFeatures .inversion
+{
+    background: orange;
+}
+
+.minus-bionanoQueryFeatures .inversion_paired
+{
+    background: blue;
+}
+
+.minus-bionanoQueryFeatures .inversion_partial
+{
+    background: pink;
+}
+
+.minus-bionanoQueryFeatures .translocation_interchr
+{
+    background: purple;
+}
+
+.minus-bionanoQueryFeatures .translocation_intrachr
+{
+    background: magenta;
+}
+
+.plus-bionanoMoleculeFeatures
+{
+    /*top:0px !important;*/
+    /*border:1px solid black;*/
+     background: -webkit-linear-gradient(left, #f7a502 , #f7a502); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #f7a502, #f7a502); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #f7a502, #f7a502); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #f7a502 , #f7a502); /* Standard syntax */
+    height: 4px !important;
+    z-index: 1001;
+}
+
+
+.minus-bionanoMoleculeFeatures
+{
+    /*top:0px !important;*/
+    /*border:1px solid black;*/
+      background: -webkit-linear-gradient(left , #ce8602, #ce8602); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right,  #ce8602, #ce8602); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #ce8602, #ce8602); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #ce8602, #ce8602); /* Standard syntax */
+    height: 4px !important;
+    z-index: 1001;
+}
+
+.plus-bionanoQueryFeatures
+{
+    /*top:0px !important;*/
+    /*border:1px solid black;*/
+     background: -webkit-linear-gradient(left, #9DCDFA , #0E8BFF); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #9DCDFA, #0E8BFF); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #9DCDFA, #0E8BFF); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #9DCDFA , #0E8BFF); /* Standard syntax */
+    height: 40px !important;
+    z-index: 1001;
+}
+
+
+.minus-bionanoQueryFeatures
+{
+    /*top:0px !important;*/
+    /*border:1px solid black;*/
+      background: -webkit-linear-gradient(left , #0E8BFF, #9DCDFA); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right,  #0E8BFF, #9DCDFA); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #0E8BFF, #9DCDFA); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #0E8BFF, #9DCDFA); /* Standard syntax */
+    height: 40px !important;
+    z-index: 1001;
+}
+
+
+.bionanoRefFeatures
+{
+    background: #00CC00;
+    height:40px !important;
+    /*top:25px !important;*/
+}
+
+.bionanoLabels 
+{
+    /*top :0px !important;*/
+    background-color: black;
+    height:40px !important;
+}
+
+.bionanoRefFeatures .bionanoLabelChannel_1
+{
+    background-color:#F50C35;
+    height:40px !important;
+}
+
+.bionanoRefFeatures .bionanoLabelChannel_2
+{
+    background-color:#1E49BB;
+    height:40px !important;
+}
+
+.feature-label
+{
+    /*top:20px !important;*/
+    color:black;
+}
+
+.resourceList h3
+{
+    margin-top:10px;
+    margin-bottom:10px;
+
+     /* These are technically the same, but use both */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  -ms-word-break: break-all;
+  /* This is the dangerous one in WebKit, as it breaks things wherever */
+  word-break: break-all;
+  /* Instead use this non-standard one: */
+  word-break: break-word;
+
+  /* Adds a hyphen where the word breaks, if supported (No Blink) */
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+.xmapArea
+{
+    /*height: 65px;*/
+    position: relative;
+    border: 1px solid #b3b3b3;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.bionanoUploadIcon
+{
+	background-image: url('../img/upload.png');
+	background-repeat: no-repeat;
+	width: 16px;
+  	height: 16px;	
+}
+
+.bionanoResourceControls
+{
+	position: relative;
+    width: 50em;
+    padding: 0 0 0.75em 0;
+    margin: 6px 0;
+}
+
+.bionanoFileDialog .bionanoResourceControls {
+    height: 585px;
+    position: relative;
+    overflow:auto;
+}
+
+.bionanoFileDialog .bionanoLocalFilesControl {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.bionanoFileDialog .bionanoResourceControls > div {
+    width: 100%;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.bionanoLocalFilesControl .dragArea {
+    height: 81%;
+    position: relative;
+    border: 1px solid #b3b3b3;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.bionanoFileDialog .resourceList {
+    
+}
+
+
+.bionanoFileDialog  .trackList {
+    background: #8cb1dd;
+}
+
+.bionanoFileDialog .connector {
+    background: #333;
+    height: 6px;
+    width: 12px;
+    position: absolute;
+    bottom: -6px;
+    left: 50%;
+    margin-left: -6px;
+}
+
+.propertyName 
+{
+    font-weight: bold;
+    padding-right:10px;
+}
+
+.propertyValue
+{
+    font-style: italic;
+}
+
+.break
+{
+    display:block;
+}
