@@ -6,6 +6,9 @@ Hello and welcome to the open source community project to develop a JBrowse Plug
 ### Overview 
 To improve support for BioNano Genomics data files we funded an effort to produce a JBrowse Plugin.  Our initial offering allows users to view alignment and structural variations.  It is our hope that the JBrowse and BioNano Genomics community will take ownership and further the development of this tool.  We offer it freely as open source software with no restrictions.  These instructions assume an existing working knowledge of JBrowse and BioNano Genomics software.   
 
+### Purpose
+The purpose of this tool is to allow you to view your BioNano Genomics Irys data in combination with data in other formats supported by JBrowse.   JBrowse supports BAM, BAM Index, GFF3, GTF, BigWig, VCF, Tabix Index, and other formats.
+
 ### Disclaimer
 BioNano Genomics offers no guarantees and no support for this tool.  We primarily tested this tool with Chrome.  We also did some limited testing with Safari.  Please refer to the issues tab for outstanding and known issues. 
 
